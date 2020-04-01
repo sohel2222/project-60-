@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/************Main Coding Start*************/
+
+/**Header Section Start**/
+
+.navigation {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 99999;
+    width: 100%;
+
+}
+
+Header .navfixed {
+    position: fixed;
+    width: 100%;
+    background: #cc0000;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+
+}
+
+.navigation_overlay {
+    background: rgba(53, 53, 53, 0.2);
+}
+
+Header .navigation nav .nav-item .nav-link {
+    text-transform: uppercase;
+    color: #f1f1f1;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 7px;
+    padding: 0 4px;
+    line-height: 50px;
+
+}
+
+Header .navigation nav .nav-item .nav-link:hover {
+    background: #ffffff;
+    border-bottom: 3px solid #e23e38;
+}
+
+Header .navigation nav .nav-item .nav-link.active {
+    background: #ffffff;
+    border-bottom: 3px solid #e23e38;
+}
+
+Header .navbar-brand {
+    background: #313131;
+    transform: skew(-16deg);
+    padding: 15px 30px;
+}
+
+Header .navbar-brand img {
+    transform: skew(16deg);
+}
+
+Header {}
+
+Header .overlay_one {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(53, 53, 53, 0.25);
+    top: 0;
+    left: 0;
+}
+
+Header .overlay_one .text h3 {
+    color: #ffffff;
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-size: 30px;
+    padding-top: 100px;
+
+}
+
+Header .overlay_one .text h1 {
+    color: #e23e38;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+Header .overlay_one .text p {
+    color: #f7f7f7;
+    font-size: 14px;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+Header .overlay_one .text a {
+
+    border: 1px solid #f1f1f1;
+    display: inline-block;
+    line-height: 36px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+Header .overlay_one .text a.active {
+    background: #e23e38;
+}
+
+Header .overlay_one .text a:hover {
+    background: #ffffff;
+    transition: all linear 0.4s;
+    color: #e23e38;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: none;
+    cursor: pointer;
+}
+
+.carousel-indicators li.active {
+    background: #cc0000;
+}
+
+/*Header ends*/
+
+
+/**  About Section start  **/
+#about {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+#about .about_overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+#about .about_overlay:hover {
+    background: rgba(60, 60, 60, 0.6);
+    transition: all linear 0.4s;
+}
+
+#about h1 {
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #353535;
+}
+
+#about p {
+    color: #8d8d8d;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+
+/******About Sction End******/
+
+
+/******Academic Career Part Start******/
+
+.member_text h3 {}
+
+.member_text img {
+    padding-top: 10px;
+}
+
+.member_text img {
+    padding-bottom: 30px;
+
+}
+
+.member h1 {
+    background: #dddddd;
+    text-transform: uppercase;
+    padding: 15px 0;
+    color: #353535;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+}
+
+.member ul li {
+    text-align: center;
+    background: #f1f1f1;
+    color: #555555;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 15px 0px;
+}
+
+.member h1:hover {
+    background: #cc0000;
+    color: #fff;
+}
+
+.only_images {
+    position: relative;
+}
+
+
+.member_overlay h2 {
+    text-transform: uppercase;
+
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 60px;
+    padding: 20px 0px;
+}
+
+.member_overlay h2 span {
+    font-size: 22px;
+}
+
+.member .member_overlay {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/******Academic Career Part End******/
+
+/******Contact Section start******/
+#contact_me {
+    background: none;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.contact_item {
+    width: 30.333%;
+    float: left;
+    text-align: center;
+    padding-right: 30px;
+    position: relative;
+}
+
+.contact_content {
+    background: #f8f8f8;
+    padding: 30px 0px;
+    padding-bottom: 26px;
+    border: 1px solid #ebebeb;
+}
+
+.contact_item3 {
+    padding-left: 15px;
+}
+
+.contact_item2 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact_icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    border: 1px solid #ebebeb;
+    margin: 0 auto;
+}
+
+.contact_icon {
+    border: 1px solid #42b061;
+    margin-bottom: 10px;
+}
+
+.contact_icon i {
+    padding-top: 13px;
+    font-size: 24px;
+    color: #888888
+}
+
+.contact_icon i:hover {
+    color: red;
+}
+
+address {
+    display: block;
+}
+
+.contact_content a {
+    display: block;
+    font-size: 14px;
+    color: #707070;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+.location {
+    font-size: 14px;
+    color: #707070;
+    padding: 0 30px 0px 30px;
+    line-height: 22px;
+
+}
+
+.contact_us_info_left {
+    width: 50%;
+    float: left;
+    margin-top: 70px;
+
+}
+
+.contact_us_info_left form input,
+.contact_us_info_left form textarea {
+    width: 94%;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 2px solid #ebebeb;
+    color: #979797;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contact_us_info_left form a {
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    width: 95%;
+    font-size: 14px;
+    background-color: #42b061;
+    text-transform: uppercase;
+    margin-top: 36px;
+
+}
+
+.contact_us_bottom_right iframe {
+    height: 431px;
+    margin-left: 20px;
+    width: 92%;
+}
+
+/******Contact Section End******/
+
+
+
+/*****Footer Section Start******/
+.footer {
+    background: url(../images/banner-1.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+
+#footer_design .footer h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 27px;
+}
+
+
+#footer_design .footer .middle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-top: 110px;
+}
+
+.footer h5 {
+    color: #fff;
+
+}
+
+.footer h4 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    margin-right: 25px;
+}
+
+.footer h4 i {
+    color: #1da1f2;
+
+
+}
+
+.footer h6 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding-top: 9px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.footer h6 i {
+    color: #1da1f2;
+}
+
+.footer h3 {
+
+    color: #f1f1f1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.footer h3 i {
+    color: #ce3833;
+}
+
+h3 span {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer h1 span {
+    color: #ce3833;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.footer ul li a {
+    float: left;
+    color: #fff;
+    padding: 0 10px;
+    border: 2px solid #ffffff;
+    margin: 0 3px;
+}
+
+.footer .footer_overlay {
+    background: rgba(0, 0, 0, 0.85)
+}
+
+.footer .footer_overlay h2 {
+    padding-top: 34px;
+
+}
+
+.footer ul li a:hover {
+    background: #fff;
+    transition: all linear 0.4s;
+    color: #000;
+}
+
+/**** Footer Section End ****/

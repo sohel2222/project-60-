@@ -1,0 +1,291 @@
+@media(min-width:992px) and (max-width:1199px) {
+    Header .overlay_one .text h1 {
+        font-size: 42px;
+        color: #ffc400;
+        padding-top: 5px;
+    }
+
+    Header .overlay_one .text h3 {
+        padding-top: 90px;
+        font-size: 25px;
+    }
+
+    Header .overlay_one .text a {
+        margin-top: 20px;
+    }
+
+    .contact_item {
+        padding-right: 20px;
+    }
+
+    .contact_item2 {
+        padding-left: 13px;
+    }
+
+    .location {
+        padding: 0 22px 0px 22px;
+    }
+
+}
+/*large ends*/
+
+@media (min-width:768px) and (max-width:991px) {
+    Header .overlay_one .text h3 {
+        color: #1dff00;
+        padding-top: 90px;
+        font-size: 18px;
+    }
+    Header .overlay_one .text h1 {
+        font-size: 30px;
+        padding-top: 2px;
+
+    }
+    Header .overlay_one .text p {
+        padding-top: 5px;
+    }
+    Header .overlay_one .text a {
+        margin-top: 10px;
+        line-height: 25px;
+    }
+    Header .navigation nav .nav-item .nav-link {
+        font-size: 11px;
+    }
+    Header .navbar-brand {
+        padding: 5px 10px;
+    }
+
+
+    Header .navbar-brand img {
+        width: 100px;
+        height: 25px;
+
+    }
+    #about h1 {
+        font-size: 16px;
+    }
+
+    #about p {
+        font-size: 11px;
+    }
+
+    #about .mid {
+        margin-top: 50px;
+    }
+    .about_overlay .about_text {
+        margin-top: 32%;
+    }
+    .gall_all {
+        padding: 300px 0;
+    }
+    Header .overlay_one .text h1 {
+        font-size: 32px;
+
+    }
+    Header .overlay_one .text h3 {
+        font-size: 18px;
+        padding-top: 60px;
+    }
+    Header .navigation nav .nav-item .nav-link {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    Header .overlay_one .text a {
+        margin-top: 5px;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .our_team h3 {
+        font-size: 16px;
+    }
+
+    .our_gallery h3 {
+
+        font-size: 16px;
+    }
+    .testimonial_text h3 {
+        font-size: 16px;
+    }
+    .member_text h3 {
+        font-size: 16px;
+    }
+    .our h4 {
+        font-size: 16px;
+    }
+    .nav-link {
+        padding: 10px 41px;
+    }
+}
+
+/*medium ends*/
+@media (min-width:576px) and (max-width:767px) {
+    Header .overlay_one .text h3 {
+        color: #1dff00;
+        padding-top: 50px;
+        font-size: 13px;
+    }
+    Header .overlay_one .text h1 {
+        font-size: 20px;
+        color: #ffc400;
+        padding-top: 1px;
+    }
+
+    Header .overlay_one .text p {
+        font-size: 9px;
+        padding-top: 5px;
+
+    }
+    Header .overlay_one .text a {
+        margin-top: 2px;
+        line-height: 20px;
+        padding: 5 15px;
+        font-size: 9px;
+    }
+    Header .navbar-brand {
+        padding: 5px 10px;
+    }
+    Header .navbar-brand img {
+        width: 80px;
+        height: 20px;
+    }
+    .carousel-indicators li {
+
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        background: none;
+        cursor: pointer;
+
+    }
+
+    .our_team {
+        margin-top: 1500px;
+    }
+
+    .nav-link {
+        padding: 5px 22px
+    }
+
+    .member_two {
+        margin-top: 30px;
+    }
+
+    .member_three {
+        margin-top: 30px;
+    }
+
+    .contact_item {
+        width: 28.333%;
+
+    }
+
+    .location {
+        padding: 0px 22px;
+    }
+    .hobby-img{
+    }
+    .hobby-content{
+        padding-top: 400px;
+
+    }
+
+}
+
+/**/
+
+@media (min-width:320px) and (max-width:575px) {
+    Header .overlay_one .text h3 {
+        color: #ff006c;
+        font-size: 5px;
+        padding-top: 30px;
+    }
+
+    Header .overlay_one .text h1 {
+        color: #ff006c;
+        font-size: 10px;
+        padding-top: 3px;
+        color: #fff;
+    }
+
+    Header .overlay_one .text p {
+        color: #ff006c;
+        font-size: 5px;
+        padding-top: 3px;
+    }
+
+    Header .navbar-brand {
+        padding: 2px 5px;
+    }
+
+    .navigation {
+        top: 5px;
+
+    }
+
+    Header .navbar-brand img {
+        width: 60px;
+
+    }
+    .carousel-indicators li {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        background: none;
+        cursor: pointer;
+    }
+
+    .carousel-indicators {}
+    Header .overlay_one .text a {
+        margin-top: 1px;
+        line-height: 15px;
+        font-size: 5px;
+        padding: 5px 5px;
+        line-height: 2px;
+        margin-right: 2px;
+        margin-left: 2px;
+
+    }
+
+    .our_team {
+        margin-top: 1500px;
+    }
+
+    .nav-link {
+        padding: 5px 12px
+    }
+    .member_two {
+        margin-top: 30px;
+    }
+
+    .member_three {
+        margin-top: 30px;
+    }
+
+    .contact_item {
+        width: 100%;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .contact_us_info_left {
+        width: 100%;
+        margin-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .contact_us_info_left form textarea {
+        margin-bottom: 0px;
+    }
+
+    .contact_us_bottom_right {
+        width: 100%:
+    }
+
+    .contact_us_bottom_right iframe {
+        height: 431px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+
+}
